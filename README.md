@@ -29,7 +29,7 @@ Build System: gcc
 
 <img width="489" height="529" alt="image" src="https://github.com/user-attachments/assets/abac96ad-4259-4f59-92a3-4686a600946d" />
 
-
+```markdown
 📁 Project Structure
 project/
 ├── main.c                 # Main application code
