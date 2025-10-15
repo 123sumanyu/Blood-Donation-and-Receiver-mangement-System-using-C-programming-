@@ -32,7 +32,7 @@ Build System: gcc
 ```markdown
 📁 Project Structure
 project/
-├── main.c                 # Main application code
+├── app.c                 # Main application code
 ├── donors.csv             # Stores donor data
 ├── receivers.csv          # Stores receiver data
 ├── b.jpg                  # Background image for login screen
@@ -50,10 +50,10 @@ sudo apt update
 sudo apt install libgtk-3-dev
 
 🔧 Build Instructions
-gcc main.c -o blood_app `pkg-config --cflags --libs gtk+-3.0`
+gcc 'pkg-config --cflags gtk+-3.0' -o app app.c `pkg-config 'pkg-config --libs gtk+-3.0'
 
 ▶️ Run the Application
-./blood_app
+./app
 
 🔑 Default Credentials
 Username	Password
