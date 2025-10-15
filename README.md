@@ -27,7 +27,8 @@ Build System: gcc
 
 📷 Screenshots (Optional Section)
 
-Add screenshots of your UI here to showcase the main interface and features.
+<img width="489" height="529" alt="image" src="https://github.com/user-attachments/assets/abac96ad-4259-4f59-92a3-4686a600946d" />
+
 
 📁 Project Structure
 project/
